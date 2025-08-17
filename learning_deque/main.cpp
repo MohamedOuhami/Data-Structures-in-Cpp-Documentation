@@ -11,13 +11,13 @@ int main()
     deque<string> cars = {"Volvo","BMW","Seat"};
 
     // Get the first element
-    cout << "The first element : " << cars.front();
+    cout << "The element at the front : " << cars.front() << endl;
 
     // Get the last element
-    cout << "The last element : " << cars.back();
+    cout << "The element at the back : " << cars.back() << endl;
 
     // Get the 2nd element
-    cout << "The 2nd element : " << cars.at(1);
+    cout << "The 2nd element : " << cars.at(1) << endl;
 
     // Add elements at the front of the queue
     cars.push_front("Mclaren");
