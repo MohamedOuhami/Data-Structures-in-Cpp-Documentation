@@ -1,0 +1,1 @@
+/usr/bin/g++ -DQT_QML_DEBUG -g -Wl,--dependency-file=CMakeFiles/learning_vectors.dir/link.d CMakeFiles/learning_vectors.dir/main.cpp.o -o learning_vectors
